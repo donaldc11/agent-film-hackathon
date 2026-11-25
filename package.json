@@ -1,0 +1,22 @@
+{
+  "name": "agent-film-hackathon",
+  "version": "0.1.0",
+  "description": "The Last Car Down: an animated short on Table Mountain where AI agents write the plot.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "bruin": "bruin run bruin/agent_film",
+    "bruin:validate": "bruin validate bruin/agent_film",
+    "portraits": "node scripts/generate-portraits.mjs",
+    "scenes": "node scripts/generate-scenes.mjs",
+    "film": "node scripts/make-film.mjs",
+    "film:story": "node scripts/make-film.mjs --story-only",
+    "film": "node scripts/make-film.mjs",
+    "film:story": "node scripts/make-film.mjs --story-only",
+    "film:extend": "node scripts/extend-film.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

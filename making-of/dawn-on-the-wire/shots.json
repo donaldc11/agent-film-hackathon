@@ -1,0 +1,438 @@
+[
+  {
+    "n": 1,
+    "location": "aerial_peninsula",
+    "light": 0,
+    "duration": 8,
+    "camera": "wide shot, static",
+    "in_frame": [],
+    "action": "The panoramic view of the peninsula captures breathtaking scenery as the sun sets.",
+    "dialogue": [],
+    "audio": "gentle wind, soft orchestral music"
+  },
+  {
+    "n": 2,
+    "location": "cable_car_exterior",
+    "light": 0,
+    "duration": 6,
+    "camera": "wide shot, stationary",
+    "in_frame": [],
+    "action": "The cable car climbs the cliff, slowly ascending over the landscape.",
+    "dialogue": [],
+    "audio": "cable car mechanics, distant birds"
+  },
+  {
+    "n": 3,
+    "location": "cable_car_interior",
+    "light": 0,
+    "duration": 8,
+    "camera": "medium two-shot, slight zoom",
+    "in_frame": [
+      "mechanic"
+    ],
+    "action": "Javier grins smugly as he enjoys the view.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "with a smirk",
+        "line": "Ain't this view somethin', huh? Bet nothin' I fixed beats that."
+      }
+    ],
+    "audio": "cable car hum, soft chatter"
+  },
+  {
+    "n": 4,
+    "location": "cable_car_interior",
+    "light": 0,
+    "duration": 7,
+    "camera": "medium two-shot, slight tilt",
+    "in_frame": [
+      "lucky"
+    ],
+    "action": "Milo chuckles, sharing his light-hearted attitude.",
+    "dialogue": [
+      {
+        "speaker": "lucky",
+        "delivery": "light and jovial",
+        "line": "Oi, Javier! This view? It’s like winning the lottery without a ticket!"
+      }
+    ],
+    "audio": "soft laughter, cable car creaks"
+  },
+  {
+    "n": 5,
+    "location": "cable_car_interior",
+    "light": 0,
+    "duration": 6,
+    "camera": "medium close-up, focused on Maggie",
+    "in_frame": [
+      "mom"
+    ],
+    "action": "Maggie interjects with concern, her face serious.",
+    "dialogue": [
+      {
+        "speaker": "mom",
+        "delivery": "blunt and serious",
+        "line": "Yeah, but I'd trade this view for a full inhaler any day."
+      }
+    ],
+    "audio": "heavy breathing, cable car hum"
+  },
+  {
+    "n": 6,
+    "location": "cable_car_interior",
+    "light": 0,
+    "duration": 7,
+    "camera": "medium two-shot, slight pan",
+    "in_frame": [
+      "lucky"
+    ],
+    "action": "Milo playfully teases Maggie, keeping the mood light.",
+    "dialogue": [
+      {
+        "speaker": "lucky",
+        "delivery": "playful and teasing",
+        "line": "Tsk, tsk, Maggie! Life's a mountain, not just a view, you sabe?"
+      }
+    ],
+    "audio": "chuckling, distant wind"
+  },
+  {
+    "n": 7,
+    "location": "cable_car_interior",
+    "light": 0,
+    "duration": 6,
+    "camera": "close-up on Maggie’s determined expression",
+    "in_frame": [
+      "mom"
+    ],
+    "action": "Maggie now looks firmly at her kids.",
+    "dialogue": [
+      {
+        "speaker": "mom",
+        "delivery": "firm and direct",
+        "line": "Milo, sure, it’s pretty, but these kids need my focus."
+      }
+    ],
+    "audio": "cable car shifts, faint music"
+  },
+  {
+    "n": 8,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 8,
+    "camera": "wide shot, panoramic view",
+    "in_frame": [],
+    "action": "The group steps out onto the mountain summit.",
+    "dialogue": [],
+    "audio": "wind, excited chatter"
+  },
+  {
+    "n": 9,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 8,
+    "camera": "medium shot of Javier",
+    "in_frame": [
+      "mechanic"
+    ],
+    "action": "Javier smirks, demonstrating his confidence.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "confident with a smirk",
+        "line": "Last car down, huh? Let's make sure we don't get stuck up here, boss."
+      }
+    ],
+    "audio": "cable car Wind, distant laughter"
+  },
+  {
+    "n": 10,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 8,
+    "camera": "medium close-up on Aaliyah",
+    "in_frame": [
+      "scholar"
+    ],
+    "action": "Aaliyah looks panicked, gripping the edge of the doorway.",
+    "dialogue": [
+      {
+        "speaker": "scholar",
+        "delivery": "panicked and breathless",
+        "line": "Javier, I can’t even look down right now. This is too much!"
+      }
+    ],
+    "audio": "cable car creaks, wind howls"
+  },
+  {
+    "n": 11,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 8,
+    "camera": "medium two-shot of Javier and Milo",
+    "in_frame": [
+      "mechanic"
+    ],
+    "action": "Javier reassures Aaliyah with a smirk.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "confident, smirking",
+        "line": "Listen, Aaliyah, you gotta trust the ride. It'll hold up, ain't that right, Milo?"
+      }
+    ],
+    "audio": "wind rustles, soft orchestral background"
+  },
+  {
+    "n": 12,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 7,
+    "camera": "medium close-up on Maggie and child",
+    "in_frame": [
+      "mom"
+    ],
+    "action": "Maggie turns to her child, holding his hand firmly.",
+    "dialogue": [
+      {
+        "speaker": "mom",
+        "delivery": "reassuring yet firm",
+        "line": "Hey, hold my hand, kid. We’re gonna be fine."
+      }
+    ],
+    "audio": "cable car gondola movements, ambient wind"
+  },
+  {
+    "n": 13,
+    "location": "upper_station",
+    "light": 1,
+    "duration": 7,
+    "camera": "medium close-up on Milo",
+    "in_frame": [
+      "lucky"
+    ],
+    "action": "Milo is cheerful, clearly enjoying the moment.",
+    "dialogue": [
+      {
+        "speaker": "lucky",
+        "delivery": "cheerful and relaxed",
+        "line": "Ah, don’t worry, Aaliyah! This car has seen worse! Nha amigu, let's enjoy the ride!"
+      }
+    ],
+    "audio": "background chatter, soft wind"
+  },
+  {
+    "n": 14,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 8,
+    "camera": "wide shot of the stalled cabin hanging in the night",
+    "in_frame": [],
+    "action": "The car is suspended in darkness, blown by a fierce wind.",
+    "dialogue": [],
+    "audio": "howling wind, creaking metal"
+  },
+  {
+    "n": 15,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 7,
+    "camera": "close-up on Aaliyah, urgency in her eyes",
+    "in_frame": [
+      "scholar"
+    ],
+    "action": "Aaliyah is desperate, her voice rising with worry.",
+    "dialogue": [
+      {
+        "speaker": "scholar",
+        "delivery": "urgent and slightly panicked",
+        "line": "We can't just hang here! We need to open the hatch and check the motor now."
+      }
+    ],
+    "audio": "wind roaring, cables straining"
+  },
+  {
+    "n": 16,
+    "location": "car_roof",
+    "light": 3,
+    "duration": 8,
+    "camera": "medium shot of Javier",
+    "in_frame": [
+      "mechanic"
+    ],
+    "action": "Javier prepares to open the hatch, focusing on the task.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "confident",
+        "line": "Listen up, Aaliyah. I’m opening that hatch now. Hold tight!"
+      }
+    ],
+    "audio": "cables rattling, wind howling"
+  },
+  {
+    "n": 17,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 7,
+    "camera": "medium shot of Maggie, urgency in her voice",
+    "in_frame": [
+      "mom"
+    ],
+    "action": "Maggie looks anxious, demanding Javier to hurry.",
+    "dialogue": [
+      {
+        "speaker": "mom",
+        "delivery": "urgent and firm",
+        "line": "Javier, I need you to hurry. He's almost out!"
+      }
+    ],
+    "audio": "heavy breathing, wind still howling"
+  },
+  {
+    "n": 18,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 8,
+    "camera": "medium shot of the 7-year-old wheezing",
+    "in_frame": [],
+    "action": "The wind howls harder as the scene grows tense.",
+    "dialogue": [],
+    "audio": "child wheezing, wind at 8/10 strength"
+  },
+  {
+    "n": 19,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 8,
+    "camera": "close-up on Milo helping the child",
+    "in_frame": [
+      "lucky"
+    ],
+    "action": "Milo speaks soothingly to the child, keeping calm.",
+    "dialogue": [
+      {
+        "speaker": "lucky",
+        "delivery": "calm and playful",
+        "line": "Aaliyah, I’ll help with the little one! Just breathe, pequeno!"
+      }
+    ],
+    "audio": "gentle breathing interspersed with wind"
+  },
+  {
+    "n": 20,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 6,
+    "camera": "medium shot of Javier working intently",
+    "in_frame": [
+      "mechanic"
+    ],
+    "action": "Javier continues to work on the hatch, focused and determined.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "with conviction",
+        "line": "I ain't stoppin' now, Aaliyah! This hatch's comin' open, trust me."
+      }
+    ],
+    "audio": "heavy machinery sounds, wind gusts"
+  },
+  {
+    "n": 21,
+    "location": "car_roof",
+    "light": 3,
+    "duration": 8,
+    "camera": "medium shot of Javier",
+    "in_frame": [],
+    "action": "Javier manages to open the roof hatch with skill.",
+    "dialogue": [],
+    "audio": "hatch opening, wind roaring"
+  },
+  {
+    "n": 22,
+    "location": "stalled_car_night",
+    "light": 3,
+    "duration": 8,
+    "camera": "wide shot of cabin rocked by wind",
+    "in_frame": [],
+    "action": "A sudden violent gust slams the cabin sideways.",
+    "dialogue": [],
+    "audio": "violently howling wind, cabin creaking under pressure"
+  },
+  {
+    "location": "dawn_wire",
+    "light": 4,
+    "duration": 8,
+    "camera": "slow wide shot as the light grows",
+    "in_frame": [],
+    "action": "The wind has dropped. Soft dawn light spreads over Cape Town and Table Bay as the cable shudders and the cabin is slowly winched down the cliff.",
+    "dialogue": [],
+    "audio": "near silence after the storm, birdsong far below, the slow groan of the winch, a gentle piano theme",
+    "n": 23
+  },
+  {
+    "location": "dawn_wire",
+    "light": 4,
+    "duration": 8,
+    "camera": "medium group shot",
+    "in_frame": [
+      "scholar",
+      "lucky"
+    ],
+    "action": "The group, exhausted, steps out of the cabin into the dawn light. Aaliyah rubbing my arms for warmth. Milo spreading arms wide with a grin.",
+    "dialogue": [
+      {
+        "speaker": "scholar",
+        "delivery": "shaky and hurried",
+        "line": "I can't believe we survived that. Did we really help anyone?"
+      },
+      {
+        "speaker": "lucky",
+        "delivery": "cheerfully optimistic",
+        "line": "Ah, Aaliyah, we survived like true champions, sabe? That's somethin' to celebrate!"
+      }
+    ],
+    "audio": "quiet wind, distant city, the film's theme returning softly",
+    "n": 24
+  },
+  {
+    "location": "dawn_wire",
+    "light": 4,
+    "duration": 8,
+    "camera": "close two-shot",
+    "in_frame": [
+      "mechanic",
+      "mom"
+    ],
+    "action": "The group, exhausted, steps out of the cabin into the dawn light. Javier crosses arms and shifts weight. Maggie cross my arms tightly.",
+    "dialogue": [
+      {
+        "speaker": "mechanic",
+        "delivery": "firm yet frustrated",
+        "line": "Help? We almost lost the kid, but we made it out, boss."
+      },
+      {
+        "speaker": "mom",
+        "delivery": "frustrated but firm",
+        "line": "Almost lost him, and we did nothing? That's not celebration, Milo."
+      }
+    ],
+    "audio": "quiet wind, distant city, the film's theme returning softly",
+    "n": 25
+  },
+  {
+    "location": "dawn_wire",
+    "light": 4,
+    "duration": 7,
+    "camera": "slow wide pull back from Table Mountain",
+    "in_frame": [],
+    "action": "The camera pulls back from Table Mountain and Cape Town.",
+    "dialogue": [],
+    "titleText": "DAWN ON THE WIRE",
+    "subtitleText": "Written by its characters",
+    "audio": "the theme swells to a warm final chord",
+    "n": 26
+  }
+]

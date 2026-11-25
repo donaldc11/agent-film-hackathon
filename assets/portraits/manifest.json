@@ -1,0 +1,128 @@
+{
+  "kid10": {
+    "prompt": "A 10-year-old child in casual tourist clothes with a light jacket, jeans and sneakers",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "kid10_1.png",
+        "imageUUID": "345b5ae6-1e4e-4e04-935b-d9ba10f759d3",
+        "imageURL": "https://im.runware.ai/image/os/a09dlim3/ws/3/ii/345b5ae6-1e4e-4e04-935b-d9ba10f759d3.png",
+        "seed": 1538884888,
+        "cost": 0.00572
+      },
+      {
+        "file": "kid10_2.png",
+        "imageUUID": "0da41528-4c0a-4c68-a760-b7f86bf2ce5e",
+        "imageURL": "https://im.runware.ai/image/os/a09dlim3/ws/3/ii/0da41528-4c0a-4c68-a760-b7f86bf2ce5e.png",
+        "seed": 1538884889,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  },
+  "mechanic": {
+    "prompt": "A 38-year-old Latino man from the Bronx, muscular gym build, work boots, utility pants and a fitted T-shirt, confident stance",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "mechanic_1.png",
+        "imageUUID": "0c1763bd-c255-4639-a0fe-81ebb1137c56",
+        "imageURL": "https://im.runware.ai/image/os/a02d21/ws/3/ii/0c1763bd-c255-4639-a0fe-81ebb1137c56.png",
+        "seed": 1026380705,
+        "cost": 0.00572
+      },
+      {
+        "file": "mechanic_2.png",
+        "imageUUID": "3a76e6b9-678a-4b24-bd05-658a0dae291c",
+        "imageURL": "https://im.runware.ai/image/os/a02d21/ws/3/ii/3a76e6b9-678a-4b24-bd05-658a0dae291c.png",
+        "seed": 1026380706,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  },
+  "lucky": {
+    "prompt": "A 68-year-old Cape Verdean man, wiry build, grey stubble, deep smile lines and a big easy grin, well-worn but cheerful outfit with a faded colourful shirt, rolled-up trousers, scuffed sneakers and an old straw hat, no bag, relaxed carefree posture",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "lucky_1.png",
+        "imageUUID": "700ce367-82f6-4ac8-ad11-b6d2529bc609",
+        "imageURL": "https://im.runware.ai/image/os/a10dlim3/ws/3/ii/700ce367-82f6-4ac8-ad11-b6d2529bc609.png",
+        "seed": 2132743955,
+        "cost": 0.00572
+      },
+      {
+        "file": "lucky_2.png",
+        "imageUUID": "4a630988-600c-40aa-b595-ffe7f049aee9",
+        "imageURL": "https://im.runware.ai/image/os/a10dlim3/ws/3/ii/4a630988-600c-40aa-b595-ffe7f049aee9.png",
+        "seed": 2132743954,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  },
+  "kid7": {
+    "prompt": "A 7-year-old child in casual tourist clothes with a light jacket, shorts over leggings and sneakers",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "kid7_1.png",
+        "imageUUID": "c13ccf48-a8a8-41e3-81ec-1339a214fcc9",
+        "imageURL": "https://im.runware.ai/image/os/a05d22/ws/3/ii/c13ccf48-a8a8-41e3-81ec-1339a214fcc9.png",
+        "seed": 1905544337,
+        "cost": 0.00572
+      },
+      {
+        "file": "kid7_2.png",
+        "imageUUID": "18e3a82d-9945-4ad5-8d61-a714da992989",
+        "imageURL": "https://im.runware.ai/image/os/a05d22/ws/3/ii/18e3a82d-9945-4ad5-8d61-a714da992989.png",
+        "seed": 1905544336,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  },
+  "mom": {
+    "prompt": "A 35-year-old Irish-American woman from Boston, athletic build, practical outfit with a windbreaker, leggings and trainers, crossbody bag",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "mom_1.png",
+        "imageUUID": "a495d977-b1dd-431b-bfee-73a99b4fdcc7",
+        "imageURL": "https://im.runware.ai/image/os/a05d22/ws/3/ii/a495d977-b1dd-431b-bfee-73a99b4fdcc7.png",
+        "seed": 1218845670,
+        "cost": 0.00572
+      },
+      {
+        "file": "mom_2.png",
+        "imageUUID": "0c3c98e8-2800-4865-b9ec-486da9f183fe",
+        "imageURL": "https://im.runware.ai/image/os/a05d22/ws/3/ii/0c3c98e8-2800-4865-b9ec-486da9f183fe.png",
+        "seed": 1218845669,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  },
+  "scholar": {
+    "prompt": "A 28-year-old African-American woman from Atlanta, scholarly and polished, smart casual travel outfit with a cardigan and comfortable shoes, small backpack, slightly tense posture",
+    "model": "runware:101@1",
+    "options": [
+      {
+        "file": "scholar_1.png",
+        "imageUUID": "17ee775a-2de4-46c1-94ae-3e1c81cad000",
+        "imageURL": "https://im.runware.ai/image/os/a09dlim3/ws/3/ii/17ee775a-2de4-46c1-94ae-3e1c81cad000.png",
+        "seed": 1940839242,
+        "cost": 0.00572
+      },
+      {
+        "file": "scholar_2.png",
+        "imageUUID": "b30935cb-9191-43e6-a45a-5b7d64f49155",
+        "imageURL": "https://im.runware.ai/image/os/a09dlim3/ws/3/ii/b30935cb-9191-43e6-a45a-5b7d64f49155.png",
+        "seed": 1940839241,
+        "cost": 0.00572
+      }
+    ],
+    "chosen": null
+  }
+}

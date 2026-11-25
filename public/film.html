@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Last Car Down: Film</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz@1,6..72&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #0B141C; --panel: #15232F; --sand: #C9A66B; --cloud: #F4F6F7; --muted: #A9BBC8;
+      --ui: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif; --note: "Newsreader", Georgia, serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--cloud); font-family: var(--ui); }
+    main { max-width: 1280px; margin: 0 auto; padding: 1.25rem; }
+    canvas { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border-radius: 6px; }
+    .controls { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin: 1rem 0; }
+    button { font: inherit; font-weight: 600; border: 2px solid var(--sand); background: transparent; color: var(--sand); padding: .55rem 1.1rem; border-radius: 999px; cursor: pointer; }
+    button.primary { background: var(--sand); color: var(--bg); }
+    button:disabled { opacity: .4; cursor: not-allowed; }
+    button:focus-visible { outline: 3px solid var(--cloud); outline-offset: 2px; }
+    .status, .brain { color: var(--muted); font-size: .9rem; }
+    a { color: var(--sand); }
+    #script-wrap { background: var(--panel); border-radius: 8px; padding: 1.25rem 1.5rem; max-height: 70vh; overflow-y: auto; }
+    #script { font-family: "Courier Prime", "Courier New", monospace; max-width: 60ch; margin: 0 auto; line-height: 1.45; }
+    #script h3 { text-align: center; color: var(--sand); }
+    .slug { font-weight: 700; margin: 1.4rem 0 .6rem; }
+    .beat { margin: 0 0 1rem; }
+    .who { text-align: center; margin: 0; font-weight: 700; }
+    .line { margin: 0 auto; max-width: 38ch; }
+    .act { margin: .2rem 0 0; color: var(--muted); }
+    .why { margin: .2rem 0 0; font-family: var(--note); font-style: italic; color: #8FA5B5; }
+    .ev { color: var(--sand); margin: .4rem 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <canvas id="film" width="1280" height="720" aria-label="The film"></canvas>
+    <div class="controls">
+      <button id="again" class="primary">New film</button>
+      <button id="replay" disabled>Replay</button>
+      <button id="sound">Sound on</button>
+      <button id="toggle-script">Show script</button>
+      <span id="status" class="status"></span>
+      <span id="brain" class="brain"></span>
+      <a href="/">Back to the live simulation</a>
+    </div>
+    <div id="script-wrap" hidden><div id="script"><p class="status">The script appears here once the characters have written it.</p></div></div>
+  </main>
+  <script type="module" src="film.js"></script>
+</body>
+</html>

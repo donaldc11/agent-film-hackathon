@@ -1,0 +1,5 @@
+name: film.raw_runs
+type: duckdb.seed
+description: One row per finished run, with how the film ended.
+parameters:
+  path: ../../../data/runs.jsonl

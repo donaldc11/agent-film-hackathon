@@ -1,0 +1,5 @@
+name: film.raw_decisions
+type: duckdb.seed
+description: Every decision every agent made, one row per agent per turn, written by the app.
+parameters:
+  path: ../../../data/decisions.jsonl

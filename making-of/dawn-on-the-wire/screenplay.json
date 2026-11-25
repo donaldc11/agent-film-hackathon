@@ -1,0 +1,297 @@
+{
+  "names": {
+    "mechanic": "Javier",
+    "mom": "Maggie",
+    "lucky": "Milo",
+    "scholar": "Aaliyah"
+  },
+  "scenes": [
+    {
+      "id": "ride_up",
+      "title": "The Ride Up",
+      "location": "cable_car_interior",
+      "setup": "Late afternoon. The four strangers (the mother with her two kids) ride up in one of Table Mountain's round Swiss-made Rotair cable cars. The floor slowly turns so everyone gets the 360-degree view: Cape Town's city bowl, Lion's Head, Signal Hill, Robben Island in Table Bay, the Atlantic glittering. The sheer sandstone cliff slides past the windows. Nobody knows anyone yet.",
+      "lines": [
+        {
+          "speaker": "mechanic",
+          "say": "Ain't this view somethin', huh? Bet nothin' I fixed beats that.",
+          "to": "all",
+          "delivery": "with a smirk",
+          "gesture": "leans against the side, arms crossed",
+          "thought": "I want to be noticed here."
+        },
+        {
+          "speaker": "lucky",
+          "say": "Oi, Javier! This view? It’s like winning the lottery without a ticket! Nha amigu, isn’t that somethin'?",
+          "to": "all",
+          "delivery": "light and jovial",
+          "gesture": "gesturing towards the view with a big smile",
+          "thought": "I love making others laugh, even with no luck in my pocket."
+        },
+        {
+          "speaker": "mom",
+          "say": "Yeah, but I'd trade this view for a full inhaler any day.",
+          "to": "lucky",
+          "delivery": "blunt and serious",
+          "gesture": "eyes dart to my son",
+          "thought": "His asthma's got me on high alert."
+        },
+        {
+          "speaker": "lucky",
+          "say": "Tsk, tsk, Maggie! Life's a mountain, not just a view, you sabe?",
+          "to": "mom",
+          "delivery": "playful and teasing",
+          "gesture": "grinning and pointing at the view",
+          "thought": "I love making light when others worry."
+        },
+        {
+          "speaker": "mom",
+          "say": "Milo, sure, it’s pretty, but these kids need my focus.",
+          "to": "all",
+          "delivery": "firm and direct",
+          "gesture": "glance at my son with the inhaler",
+          "thought": "Their safety comes first, no matter the view."
+        }
+      ],
+      "summary": "Javier and Milo admire the breathtaking view, with Javier claiming it surpasses anything he's fixed, while Milo likens it to winning the lottery. Maggie interrupts their enthusiasm, expressing her priority for her kids over the scenery. Javier feels proud of his work, Milo is exhilarated by the beauty, and Maggie is anxious about her responsibilities."
+    },
+    {
+      "id": "summit",
+      "title": "Last Car Down",
+      "location": "upper_station",
+      "setup": "Golden hour on the summit. The south-easter has come up fast and the white 'tablecloth' cloud is pouring over the edge. A loudspeaker crackles: the wind is closing the cableway, this is the LAST car down, everyone aboard now. The four of them (and the kids) are the last passengers. The attendant waves them all in, even the one without a ticket. The doors seal. The car swings out over the cliff.",
+      "lines": [
+        {
+          "speaker": "mechanic",
+          "say": "Last car down, huh? Let's make sure we don't get stuck up here, boss.",
+          "to": "all",
+          "delivery": "confident with a smirk",
+          "gesture": "leans back, arms crossed",
+          "thought": "Gotta keep control in this situation."
+        },
+        {
+          "speaker": "scholar",
+          "say": "Javier, I can’t even look down right now. This is too much!",
+          "to": "mechanic",
+          "delivery": "panicked and breathless",
+          "gesture": "hands gripping the seat tightly",
+          "thought": "What if the cable snaps? I'm so scared."
+        },
+        {
+          "speaker": "mechanic",
+          "say": "Listen, Aaliyah, you gotta trust the ride. It'll hold up, ain't that right, Milo?",
+          "to": "all",
+          "delivery": "confident, with a smirk",
+          "gesture": "shrugging my shoulders casually",
+          "thought": "I want her to feel safe, taking charge here."
+        },
+        {
+          "speaker": "mom",
+          "say": "Hey, hold my hand, kid. We’re gonna be fine.",
+          "to": "lucky",
+          "delivery": "reassuring yet firm",
+          "gesture": "reaches for her children's hands",
+          "thought": "I need to keep them safe, no matter what."
+        },
+        {
+          "speaker": "lucky",
+          "say": "Ah, don’t worry, Aaliyah! This car has seen worse! Nha amigu, let's enjoy the ride!",
+          "to": "all",
+          "delivery": "cheerful and relaxed",
+          "gesture": "waves hand dismissively with a grin",
+          "thought": "Just another funny story waiting to happen!"
+        }
+      ],
+      "summary": "Javier reassures Aaliyah about the ride while trying to keep her calm. Maggie encourages Milo to hold her hand, and Milo tries to comfort Aaliyah about the safety of the car. Aaliyah feels anxious and scared, Javier is somewhat confident, Maggie feels protective, and Milo is optimistic."
+    },
+    {
+      "id": "stall",
+      "title": "Halfway",
+      "location": "stalled_car_night",
+      "setup": "Halfway down the cliff, with a bang and a lurch, the car stops dead. The lights die. The drive has lost power and the car hangs swinging over a 400-metre drop, the city lights coming on far below. The operator is out of contact. The wind is getting worse. They are on their own.",
+      "lines": [
+        {
+          "speaker": "scholar",
+          "say": "We can't just hang here! We need to open the hatch and check the motor now.",
+          "to": "all",
+          "delivery": "urgent and slightly panicked",
+          "gesture": "looking wildly at the hatch",
+          "thought": "If we wait too long, the wind could become unbearable.",
+          "action": "talk",
+          "target": "hatch"
+        },
+        {
+          "speaker": "mechanic",
+          "say": "Listen up, Aaliyah. I’m opening that hatch now. Hold tight!",
+          "to": "all",
+          "delivery": "confident",
+          "gesture": "bracing for the wind",
+          "thought": "We can't waste time; I need to take charge.",
+          "action": "work",
+          "target": "hatch",
+          "outcome": "Javier works on the roof hatch: progress on the roof hatch (47%)",
+          "ok": true
+        },
+        {
+          "speaker": "mom",
+          "say": "Javier, I need you to hurry. He's almost out!",
+          "to": "all",
+          "delivery": "urgent and firm",
+          "gesture": "glancing at my son's inhaler",
+          "thought": "His inhaler can't run out tonight.",
+          "action": "talk",
+          "target": "asthma"
+        },
+        {
+          "world": true,
+          "say": "The wind howls harder. Wind 8/10."
+        },
+        {
+          "world": true,
+          "say": "The 7-year-old starts wheezing hard. His mother digs for the inhaler: it's nearly empty."
+        },
+        {
+          "speaker": "lucky",
+          "say": "Aaliyah, I’ll help with the little one! Just breathe, pequeno!",
+          "to": "all",
+          "delivery": "calm and playful",
+          "gesture": "pat the boy's back gently",
+          "thought": "Keeping the boy calm is crucial; I have to make him smile.",
+          "action": "work",
+          "target": "asthma",
+          "outcome": "Milo works on the boy's asthma: progress on the boy's asthma (45%)",
+          "ok": true
+        },
+        {
+          "speaker": "mom",
+          "say": "Javier, keep working! I need you to just get that hatch open!",
+          "to": "all",
+          "delivery": "urgently",
+          "gesture": "rubbing my child's back",
+          "thought": "My kid's health comes first, no delay.",
+          "action": "talk",
+          "target": "hatch"
+        },
+        {
+          "speaker": "mechanic",
+          "say": "I ain't stoppin' now, Aaliyah! This hatch's comin' open, trust me.",
+          "to": "all",
+          "delivery": "with conviction",
+          "gesture": "yanks at the hatch with determination",
+          "thought": "I need to show I’m in charge.",
+          "action": "work",
+          "target": "hatch",
+          "outcome": "Javier works on the roof hatch: the roof hatch: DONE",
+          "ok": true
+        },
+        {
+          "world": true,
+          "say": "A violent gust slams the cabin sideways. Wind 9/10."
+        },
+        {
+          "speaker": "lucky",
+          "say": "Aaliyah, don't worry! Just breathe with me, okay? Nha amigu!",
+          "to": "all",
+          "delivery": "soothingly",
+          "gesture": "holds the boy close",
+          "thought": "Keeping the kid calm could save him.",
+          "action": "work",
+          "target": "asthma",
+          "outcome": "Milo works on the boy's asthma: progress on the boy's asthma (77%)",
+          "ok": true
+        },
+        {
+          "speaker": "scholar",
+          "say": "Javier, remember the wind speeds! We need to fix the motor before it reaches 10!",
+          "to": "all",
+          "delivery": "urgent and fast",
+          "gesture": "pointing at the hatch opening",
+          "thought": "I can't let my fear stop me from helping.",
+          "action": "talk",
+          "target": "motor"
+        },
+        {
+          "speaker": "mom",
+          "say": "Javier, get that motor going now! Time's running out!",
+          "to": "all",
+          "delivery": "urgent tone",
+          "gesture": "pointing up to the roof",
+          "thought": "The wind won't wait for us.",
+          "action": "talk",
+          "target": "motor"
+        },
+        {
+          "world": true,
+          "say": "A violent gust slams the cabin sideways. Wind 10/10."
+        }
+      ],
+      "summary": "Aaliyah urged the group to check the motor, while Javier confidently opened the roof hatch despite the worsening conditions. Milo assisted with the boy's asthma as Maggie pressed Javier to hurry with the motor fix before it was too late. Aaliyah feels anxious about the situation, Javier is determined but under pressure, Maggie is frantic with concern, and Milo remains supportive and focused on the boy's needs. Outcome: No motor, no signal. They hung in the dark all night, and at dawn, when the wind dropped, the cableway crew winched the car down. The boy's breathing got worse through the night; paramedics were waiting at the bottom. Milo worked on the boy's asthma. Javier worked on the roof hatch. Aaliyah and Maggie never managed to make a difference."
+    },
+    {
+      "id": "aftermath",
+      "title": "After",
+      "location": "lower_station",
+      "setup": "The night is over, one way or another. stepping out of the cabin at dawn, stiff and cold.",
+      "lines": [
+        {
+          "speaker": "scholar",
+          "say": "I can't believe we survived that. Did we really help anyone?",
+          "to": "all",
+          "delivery": "shaky and hurried",
+          "gesture": "rubbing my arms for warmth",
+          "thought": "I'm overwhelmed by my failure to help.",
+          "where": "stepping out of the cabin at dawn, stiff and cold"
+        },
+        {
+          "speaker": "lucky",
+          "say": "Ah, Aaliyah, we survived like true champions, sabe? That's somethin' to celebrate!",
+          "to": "all",
+          "delivery": "cheerfully optimistic",
+          "gesture": "spreading arms wide with a grin",
+          "thought": "I want to lift her spirits.",
+          "where": "stepping out of the cabin at dawn, stiff and cold"
+        },
+        {
+          "speaker": "mechanic",
+          "say": "Help? We almost lost the kid, but we made it out, boss.",
+          "to": "all",
+          "delivery": "firm yet frustrated",
+          "gesture": "crosses arms and shifts weight",
+          "thought": "I need to prove I'm in charge.",
+          "where": "stepping out of the cabin at dawn, stiff and cold"
+        },
+        {
+          "speaker": "mom",
+          "say": "Almost lost him, and we did nothing? That's not celebration, Milo.",
+          "to": "all",
+          "delivery": "frustrated but firm",
+          "gesture": "cross my arms tightly",
+          "thought": "This isn't just survival; it's about my kid's health.",
+          "where": "stepping out of the cabin at dawn, stiff and cold"
+        }
+      ],
+      "summary": ""
+    }
+  ],
+  "ending": {
+    "title": "Dawn on the Wire",
+    "lines": [
+      "No motor, no signal. They hung in the dark all night, and at dawn, when the wind dropped, the cableway crew winched the car down.",
+      "The boy's breathing got worse through the night; paramedics were waiting at the bottom.",
+      "Milo worked on the boy's asthma.",
+      "Javier worked on the roof hatch.",
+      "Aaliyah and Maggie never managed to make a difference."
+    ],
+    "outcome": {
+      "motor": false,
+      "signal": false,
+      "asthma": false,
+      "hatch": true
+    },
+    "heroes": [
+      "lucky",
+      "mechanic"
+    ]
+  },
+  "createdAt": "2026-11-24T20:11:18.920Z"
+}

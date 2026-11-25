@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Last Car Down</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz@1,6..72&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <h1>The Last Car Down</h1>
+    <div class="gauges" aria-live="polite">
+      <div class="gauge"><span>Wind</span><div class="wind" id="wind" role="meter" aria-valuemin="0" aria-valuemax="10"></div></div>
+      <div class="gauge"><span>Seats</span><div class="seats" id="seats"></div></div>
+      <div class="gauge"><span>Turn</span><strong id="turn">0 of 8</strong></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="stage-wrap">
+      <canvas id="stage" width="960" height="540" aria-label="Animated summit of Table Mountain with the characters"></canvas>
+      <div id="ending" class="ending" hidden>
+        <h2 id="ending-title"></h2>
+        <ul id="ending-lines"></ul>
+      </div>
+      <div class="controls">
+        <button id="play" class="primary">Roll film</button>
+        <button id="again" disabled>Run again</button>
+        <span id="brain" class="brain">Checking brain…</span>
+      </div>
+      <ol id="history" class="history" aria-label="Endings from earlier runs"></ol>
+    </section>
+
+    <aside class="log-wrap">
+      <h2>What they decided, and why</h2>
+      <div id="log" class="log" aria-live="polite">
+        <p class="empty">Press Roll film. Every choice each character makes will appear here with their private reasoning.</p>
+      </div>
+    </aside>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+:root {
+  --slate: #1D3446;      /* Atlantic at dusk */
+  --slate-2: #27445A;
+  --sea: #3F6E8C;
+  --sandstone: #C9A66B;  /* Table Mountain sandstone */
+  --fynbos: #5E7D4F;
+  --cloud: #F4F6F7;      /* the tablecloth */
+  --car: #B8312F;        /* cable car red */
+  --muted: #A9BBC8;
+  --ui: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --note: "Newsreader", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--slate); color: var(--cloud); font-family: var(--ui); }
+button { font: inherit; }
+
+.bar { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; }
+h1 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 800; letter-spacing: -0.02em; color: var(--sandstone); }
+.gauges { display: flex; gap: 1.5rem; align-items: center; }
+.gauge { display: flex; gap: .5rem; align-items: center; font-size: .9rem; color: var(--muted); }
+.gauge strong { color: var(--cloud); font-weight: 600; }
+.wind { display: flex; gap: 3px; }
+.wind i { width: 8px; height: 16px; border-radius: 2px; background: var(--slate-2); }
+.wind i.on { background: var(--cloud); }
+.wind i.on.danger { background: var(--car); }
+.seats { display: flex; gap: 5px; }
+.seats i { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--car); }
+.seats i.free { background: transparent; }
+.seats i.taken { background: var(--car); }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 1.25rem; padding: 0 1.5rem 1.5rem; }
+@media (max-width: 1000px) { .layout { grid-template-columns: 1fr; } }
+
+.stage-wrap { position: relative; }
+canvas { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 10px; background: #000; }
+
+.controls { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-top: .9rem; }
+button { border: 2px solid var(--sandstone); background: transparent; color: var(--sandstone); padding: .55rem 1.1rem; border-radius: 999px; font-weight: 600; cursor: pointer; }
+button.primary { background: var(--sandstone); color: var(--slate); }
+button:disabled { opacity: .4; cursor: not-allowed; }
+button:focus-visible { outline: 3px solid var(--cloud); outline-offset: 2px; }
+.brain { color: var(--muted); font-size: .9rem; }
+
+.history { list-style: none; padding: 0; margin: .9rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.history li { font-size: .85rem; background: var(--slate-2); padding: .35rem .7rem; border-radius: 6px; }
+.history b { color: var(--sandstone); font-weight: 600; }
+
+.ending { position: absolute; inset: 0 0 auto 0; aspect-ratio: 16 / 9; display: grid; place-content: center; text-align: center; padding: 2rem;
+  background: rgba(29, 52, 70, .82); border-radius: 10px; }
+.ending[hidden] { display: none; }
+.ending h2 { margin: 0 0 1rem; font-size: clamp(2rem, 5vw, 3.6rem); font-weight: 800; color: var(--sandstone); letter-spacing: -0.02em; }
+.ending ul { list-style: none; margin: 0 auto; padding: 0; max-width: 46ch; font-family: var(--note); font-style: italic; font-size: 1.1rem; line-height: 1.55; }
+
+.log-wrap { background: var(--slate-2); border-radius: 10px; padding: 1rem; display: flex; flex-direction: column; max-height: calc(100vh - 110px); min-height: 360px; }
+.log-wrap h2 { margin: 0 0 .75rem; font-size: 1.05rem; font-weight: 600; }
+.log { overflow-y: auto; flex: 1; padding-right: .25rem; }
+.log .empty { color: var(--muted); font-size: .95rem; line-height: 1.5; }
+.turn-head { margin: 1rem 0 .4rem; font-size: .85rem; color: var(--muted); border-top: 1px solid var(--sea); padding-top: .5rem; }
+.turn-head:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
+.entry { margin: 0 0 .7rem; font-size: .92rem; line-height: 1.4; }
+.entry .who { font-weight: 800; }
+.entry .act { display: inline-block; margin-left: .35rem; padding: 0 .45rem; border-radius: 4px; background: var(--slate); font-size: .8rem; }
+.entry .act.offline { border: 1px dashed var(--muted); }
+.entry .say { margin: .15rem 0 0; }
+.entry .why { margin: .15rem 0 0; font-family: var(--note); font-style: italic; color: var(--muted); }
+.entry .fail { color: #E8A39F; }
+.cast-line { margin: 0 0 .35rem; font-weight: 800; color: var(--cloud); }
+.world-event { font-size: .85rem; color: var(--sandstone); margin: 0 0 .6rem; }
+
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
